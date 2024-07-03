@@ -1,18 +1,34 @@
 # BangaloreHousePredictionModel
-Table of Contents
-Introduction
-Features
-Technologies Used
-Usage
-Project Structure
-Model Explanation
-Results
-Contributing
-License
-Contact
+# House Price Prediction Model
 
-Introduction
+## Table of Contents
+- [Introduction](#introduction)
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Usage](#usage)
+- [Project Structure](#project-structure)
+- [Model Explanation](#model-explanation)
+- [Results](#results)
+- [Contributing](#contributing)
+- [License](#license)
+- [Contact](#contact)
+
+## Introduction
 This project predicts house prices in Bangalore using various features such as location, square footage, number of bedrooms, and bathrooms. The model is built using machine learning algorithms and deployed using Flask for web interaction.
+
+## Features
+- Data preprocessing and cleaning
+- Feature engineering
+- Model training and evaluation
+- Deployment using Flask with a web interface for user input
+
+## Technologies Used
+- Python
+- Pandas
+- NumPy
+- Scikit-learn
+- Flask
+- HTML, CSS, JavaScript
 
 Features
 Data preprocessing and cleaning
@@ -27,17 +43,15 @@ Scikit-learn
 Flask
 HTML, CSS, JavaScript
 
-house-price-prediction/
+BHP/
 │
-├── server.py                   # Flask application
+├── server.py                # Flask application
 ├── model/                   # Directory for storing the model
 │   ├── banglore_home_prices_model.pickle
 │
-├── static/                  # Static files for the website
+├── Client/                  # Static files for the website
 │   ├── app.css
-│
-├── templates/               # HTML templates
-│   ├── index.html
+    ├── index.html
 │
 ├── notebooks/               # Jupyter notebook for data analysis and model training
 │   ├── HomePricePrediction.ipynb
